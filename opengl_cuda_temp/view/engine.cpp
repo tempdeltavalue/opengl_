@@ -24,7 +24,6 @@ Engine::Engine(int width, int height) {
 }
 
 void Engine::render(Scene* scene) {
-
 	glm::mat4 view_transform{ glm::lookAt(scene->player->position,
 		scene->player->position + scene->player->forwards,
 		scene->player->up) };
@@ -44,19 +43,21 @@ void Engine::render(Scene* scene) {
 	glUseProgram(program);
 	skinTexture->use();
 	glBindVertexArray(cubeModel->VAO);
+
 	glDrawArrays(GL_TRIANGLES, 0, cubeModel->vertexCount);
 }
 
 void Engine::createModels() {
 	MeshCreateInfo cubeInfo;
-	cubeInfo.filepath = "objs/Cube obj.obj";
+	cubeInfo.filepath = "objs/apple.obj";
 	cubeInfo.preTransform = glm::mat4(1);
+
 	cubeModel = new ObjMesh(&cubeInfo);
 }
 
 void Engine::createMaterials() {
 	MaterialCreateInfo materialInfo;
-	materialInfo.filename = "C:/Users/mykha/Desktop/CudaLessons/opengl_cuda_temp/textures/skin.jpg";
+	materialInfo.filename = "C:/Users/mykha/Desktop/CudaLessons/opengl_cuda_temp/textures/skin.jpg"; // absolute path ?
 	skinTexture = new Material(&materialInfo);
 }
 

@@ -8,5 +8,5 @@ out vec4 finalColor;
 
 void main()
 {
-    finalColor = texture(basicTexture, fragmentTexCoords);
+    finalColor = texture(basicTexture, fragmentTexCoords * 10);
 }
