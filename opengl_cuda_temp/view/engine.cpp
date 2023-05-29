@@ -49,7 +49,7 @@ void Engine::render(Scene* scene) {
 
 void Engine::createModels() {
 	MeshCreateInfo cubeInfo;
-	cubeInfo.filepath = "C:/Users/mykha/Desktop/CudaLessons/opengl_cuda_temp/opengl_cuda_temp/objs/Cube obj.obj";
+	cubeInfo.filepath = "objs/Cube obj.obj";
 	cubeInfo.preTransform = glm::mat4(1);
 	cubeModel = new ObjMesh(&cubeInfo);
 }

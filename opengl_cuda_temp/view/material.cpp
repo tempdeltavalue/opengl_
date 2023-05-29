@@ -22,6 +22,6 @@ Material::~Material() {
 }
 
 void Material::use() {
-	glBindTextureUnit(0, texture);
+	//glBindTextureUnit(0, texture);
 
 }
