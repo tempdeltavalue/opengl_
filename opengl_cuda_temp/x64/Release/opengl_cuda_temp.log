@@ -1,0 +1,7 @@
+﻿  engine.cpp
+  Generating code
+  2 of 2191 functions (<0.1%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    15 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  opengl_cuda_temp.vcxproj -> C:\Users\mykha\Desktop\CudaLessons\opengl_cuda_temp\x64\Release\opengl_cuda_temp.exe

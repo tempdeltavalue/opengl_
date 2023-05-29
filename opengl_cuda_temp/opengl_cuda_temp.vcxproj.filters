@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="..\glad.c" />
+    <ClCompile Include="view\shader.cpp" />
+    <ClCompile Include="model\cube.cpp" />
+    <ClCompile Include="model\player.cpp" />
+    <ClCompile Include="model\scene.cpp" />
+    <ClCompile Include="view\rectangle_model.cpp" />
+    <ClCompile Include="view\image.cpp" />
+    <ClCompile Include="view\material.cpp" />
+    <ClCompile Include="view\engine.cpp" />
+    <ClCompile Include="control\app.cpp" />
+    <ClCompile Include="view\obj_loader.cpp" />
+    <ClCompile Include="view\obj_mesh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="external_helpers\stb_image.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="view\shader.h" />
+    <ClInclude Include="model\cube.h" />
+    <ClInclude Include="model\player.h" />
+    <ClInclude Include="model\scene.h" />
+    <ClInclude Include="view\rectangle_model.h" />
+    <ClInclude Include="view\image.h" />
+    <ClInclude Include="view\material.h" />
+    <ClInclude Include="view\engine.h" />
+    <ClInclude Include="control\app.h" />
+    <ClInclude Include="view\tiny_obj_loader.h" />
+    <ClInclude Include="view\obj_loader.h" />
+    <ClInclude Include="view\obj_mesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="shaders\vertex.txt" />
+    <Text Include="shaders\fragment.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="objs\apple.obj" />
+    <Object Include="objs\temp.obj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="objs\piece.mtl" />
+  </ItemGroup>
+</Project>

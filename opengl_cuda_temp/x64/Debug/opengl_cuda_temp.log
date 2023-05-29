@@ -1,0 +1,3 @@
+﻿  engine.cpp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  opengl_cuda_temp.vcxproj -> C:\Users\mykha\Desktop\CudaLessons\opengl_cuda_temp\x64\Debug\opengl_cuda_temp.exe
