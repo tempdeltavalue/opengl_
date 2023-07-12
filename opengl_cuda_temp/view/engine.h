@@ -7,6 +7,14 @@
 #include "obj_mesh.h"
 #include "material.h"
 
+struct LightLocation {
+	std::array<unsigned int, 8> colorLoc, positionLoc, strengthLoc;
+};
+
+struct LightSubroutines {
+	unsigned int full, rough;
+};
+
 class Engine {
 public:
 	Engine(int width, int height);
@@ -19,4 +27,8 @@ public:
 	unsigned int program;
 	Material* skinTexture;
 	ObjMesh* cubeModel;
+
+	LightLocation lights;
+	unsigned int cameraPosLoc;
+	LightSubroutines lightFunctions;
 };

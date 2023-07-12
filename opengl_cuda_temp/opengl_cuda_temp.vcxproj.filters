@@ -14,6 +14,7 @@
     <ClCompile Include="control\app.cpp" />
     <ClCompile Include="view\obj_loader.cpp" />
     <ClCompile Include="view\obj_mesh.cpp" />
+    <ClCompile Include="model\light.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="external_helpers\stb_image.h" />
@@ -30,6 +31,7 @@
     <ClInclude Include="view\tiny_obj_loader.h" />
     <ClInclude Include="view\obj_loader.h" />
     <ClInclude Include="view\obj_mesh.h" />
+    <ClInclude Include="model\light.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="shaders\vertex.txt" />

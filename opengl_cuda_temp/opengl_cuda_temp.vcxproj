@@ -14,6 +14,7 @@
     <ClCompile Include="..\glad.c" />
     <ClCompile Include="control\app.cpp" />
     <ClCompile Include="model\cube.cpp" />
+    <ClCompile Include="model\light.cpp" />
     <ClCompile Include="model\player.cpp" />
     <ClCompile Include="model\scene.cpp" />
     <ClCompile Include="Source.cpp" />
@@ -30,6 +31,7 @@
     <ClInclude Include="control\app.h" />
     <ClInclude Include="external_helpers\stb_image.h" />
     <ClInclude Include="model\cube.h" />
+    <ClInclude Include="model\light.h" />
     <ClInclude Include="model\player.h" />
     <ClInclude Include="model\scene.h" />
     <ClInclude Include="view\engine.h" />

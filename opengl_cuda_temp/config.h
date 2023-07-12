@@ -4,6 +4,7 @@
 #include <GLFW/glfw3.h>
 #include <iostream>
 #include <vector> 
+#include <array> 
 
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtx/euler_angles.hpp>
@@ -14,6 +15,8 @@
 #include <sstream>
 
 #include "view/shader.h"
+
+
 
 struct image {
 	unsigned char* pixels;

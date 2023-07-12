@@ -29,11 +29,12 @@ ObjMesh::ObjMesh(MeshCreateInfo* createInfo) {
 	std::vector<float> vertices =
 		util::load_model_from_file(createInfo->filepath, createInfo->preTransform);
 
-	vertices = normalizeValues(vertices);
+	// Needed for apple
+	//vertices = normalizeValues(vertices);
 
-	for (float& number : vertices) {
-		number *= 10;
-	}
+	//for (float& number : vertices) {
+	//	number *= 10;
+	//}
 
 	vertexCount = int(vertices.size()) / 8;
 	glCreateBuffers(1, &VBO);

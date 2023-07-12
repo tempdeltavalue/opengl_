@@ -3,6 +3,7 @@
 #include "../config.h"
 #include "cube.h"
 #include "player.h"
+#include "light.h"
 
 class Scene {
 public:
@@ -12,6 +13,8 @@ public:
 	void movePlayer(glm::vec3 dPos);
 	void spinPlayer(glm::vec3 dEulers);
 
-	Cube* cube;
+	Cube* cube, *cube2;
+
 	Player* player;
+	std::vector<Light*> lights;
 };

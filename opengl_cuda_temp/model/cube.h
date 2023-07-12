@@ -8,6 +8,7 @@ struct CubeCreateInfo {
 class Cube {
 public:
 	glm::vec3 position, eulers;
+	glm::mat4 modelTransform;
 	Cube(CubeCreateInfo* createInfo);
 	void update(float rate);
 };

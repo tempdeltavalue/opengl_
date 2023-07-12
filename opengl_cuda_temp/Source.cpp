@@ -4,7 +4,7 @@
 int main() {
 
 	int width = 640;
-	int height = 480;
+	int height = 640;
 
 
 	AppCreateInfo appInfo;
