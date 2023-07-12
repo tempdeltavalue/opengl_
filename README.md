@@ -1,3 +1,3 @@
 # opengl_
 
-![Annotation 2023-05-29 195528](https://github.com/tempdeltavalue/opengl_/assets/36921178/fe81c85b-fd55-4a26-a267-596885abbef4)
+![Screenshot 2023-07-12 171013](https://github.com/tempdeltavalue/opengl_/assets/36921178/68f37326-6f09-416c-b667-2a0c48666f12)
